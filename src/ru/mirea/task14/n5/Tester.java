@@ -5,6 +5,9 @@ import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+//05.12.2004
+//12/05/2002
+
 //Написать регулярное выражение, определяющее является ли данная строчка
 //датой в формате dd/mm/yyyy. Начиная с 1900 года до 9999 года.
 public class Tester {
