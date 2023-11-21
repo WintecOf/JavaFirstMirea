@@ -1,4 +1,4 @@
-package ru.mirea.Matching;
+package ru.mirea.task21.Matching;
 
 import java.util.*;
 
@@ -8,7 +8,7 @@ public class Matching {
         Scanner sc = new Scanner(System.in);
         while (true) {
             do  {
-                System.out.print("Enter brackets sequence: ");
+                System.out.print("Enter brackets sequence (end to exit): ");
                 sequence = sc.nextLine();
                 if (Objects.equals(sequence, "end")) {
                     return;

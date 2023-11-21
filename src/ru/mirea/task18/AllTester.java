@@ -1,6 +1,5 @@
 package ru.mirea.task18;
 
-import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class AllTester {
