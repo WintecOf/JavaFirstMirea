@@ -29,6 +29,7 @@ public class RPN {
         }while(start < expr.length());
 
         double result = stack.pop();
+
         //Если после всех операций стэк не пуст, выводим наибольшее число
         while(!stack.isEmpty())
         {

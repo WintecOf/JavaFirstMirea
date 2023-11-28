@@ -46,7 +46,7 @@ public class Stack {
     //Вывод стека с указанием вершины
     public void print() {
         if(top == null)
-            System.out.println("The stack is empty");
+            System.out.println("Стэк пуст");
 
         Node current = top;
         System.out.println(current.getData() + " <--");

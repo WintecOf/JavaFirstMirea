@@ -80,7 +80,7 @@ class MyCalc extends WindowAdapter implements ActionListener{
         bspace.addActionListener(this);
 
         f.addWindowListener(this);
-//ADDING TO FRAME
+//Добавляем кнопки в фрейм
         f.add(l1);
         f.add(b1); f.add(b2); f.add(b3); f.add(b4); f.add(b5);f.add(b6); f.add(b7); f.add(b8);f.add(b9);f.add(b0);
 
@@ -150,7 +150,7 @@ class MyCalc extends WindowAdapter implements ActionListener{
             z=zt+"0";
             l1.setText(z);
         }
-
+        //ОПЕРАЦИИ
         if(e.getSource()==bpts){  //Точка
             zt=l1.getText();
             z=zt+".";
@@ -165,22 +165,22 @@ class MyCalc extends WindowAdapter implements ActionListener{
             l1.setText(z);
         }
         //АРИФМЕТИКА
-        if(e.getSource()==badd){                     //Сложение
+        if(e.getSource()==badd){ //Сложение
             zt = l1.getText();
             z=zt + " +";
             l1.setText(z);
         }
-        if(e.getSource()==bsub){                    //Вычитание
+        if(e.getSource()==bsub){ //Вычитание
             zt = l1.getText();
             z=zt + " -";
             l1.setText(z);
         }
-        if(e.getSource()==bmult){                   //Умножение
+        if(e.getSource()==bmult){ //Умножение
             zt = l1.getText();
             z=zt + " *";
             l1.setText(z);
         }
-        if(e.getSource()==bdiv){                   //Деление
+        if(e.getSource()==bdiv){ //Деление
             zt = l1.getText();
             z=zt + " /";
             l1.setText(z);
